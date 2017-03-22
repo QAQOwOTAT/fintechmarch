@@ -203,8 +203,118 @@ font-family:"Calibri";
 		top:52vw;		
 		margin: 0vw 5.4vw 0vw 0vw;	
 		width:11%;	
-		height:30px;
+		height:30px; 
+		cursor : pointer;
 }
+
+.surface_text1{
+	display: none;	
+	position:absolute;	
+	font-size:1.8vw;
+	color:orange;
+	text-align:center;
+	font-family:"Calibri";	
+}
+
+.surface_text1 a{position:absolute;	
+		background-color:#2A242A;	
+		font-size:1.8vw;
+		color:orange;
+		text-align:center;
+		font-family:"Calibri";	
+		left:-3vw;	
+		top:0.2vw;	
+		z-index:2;	
+		width:70vw;	
+		height:9vw;}
+.feature_icon:hover .surface_text1{
+	display : block;	
+}
+
+
+
+
+.surface_text3{
+		display: none;	
+		position:absolute;	
+		font-size:1.8vw;
+		color:orange;
+		text-align:center;
+		font-family:"Calibri";	
+}
+.surface_text3 a{position:absolute;	
+		background-color:#2A242A;	
+		font-size:1.8vw;
+		color:orange;
+		text-align:center;
+		font-family:"Calibri";	
+		left:-30vw;	
+		top:0.2vw;	
+		z-index:2;	
+		width:70vw;	
+		height:9vw;
+}
+.feature_icon:hover .surface_text3{
+		display : block;	
+}
+
+
+
+
+.surface_text4{
+		display: none;	
+		position:absolute;	
+		font-size:1.8vw;
+		color:orange;
+		text-align:center;
+		font-family:"Calibri";	
+}
+.surface_text4 a{
+		position:absolute;	
+		background-color:#2A242A;	
+		font-size:1.8vw;
+		color:orange;
+		text-align:center;
+		font-family:"Calibri";	
+		left:-40vw;	
+		top:0.2vw;	
+		z-index:2;	
+		width:70vw;	
+		height:9vw;
+}
+.feature_icon:hover .surface_text4{
+	display : block;	
+}
+
+
+
+
+.surface_text5{
+		display: none;	
+		position:absolute;	
+		font-size:1.8vw;
+		color:orange;
+		text-align:center;
+		font-family:"Calibri";	
+}
+
+.surface_text5 a{position:absolute;	
+		background-color:#2A242A;	
+		font-size:1.8vw;
+		color:orange;
+		text-align:center;
+		font-family:"Calibri";	
+		left:-55vw;	
+		top:0.2vw;	
+		z-index:2;	
+		width:70vw;	
+		height:9vw;
+}
+
+.feature_icon:hover .surface_text5{
+	display : block;	
+}
+
 
 
 .p2_c_d{
