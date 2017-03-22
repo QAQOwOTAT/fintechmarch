@@ -102,15 +102,17 @@
 
 		
 
-	<span class="feature_icon"><img src="img/cheap-03.png" width="150%"
-    			function mouseover()
+	<span class="feature_icon"><img id="aaa" src="img/cheap-03.png" width="150%" onmouseover="mouseover()"	onmouseout="mouseout()"></span>
+    		<script type="text/javascript">	function mouseover()
 					{
 					document.getElementById("aaa").src="cheap1-03.png";
 					}
 					function mouseout()
 					{
 					document.getElementById("aaa").src="cheap-03.png"; 
-					}></span>
+					}
+			</script>
+		
 
 
 
