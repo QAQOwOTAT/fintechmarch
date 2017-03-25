@@ -339,7 +339,8 @@ font-family:"Calibri";
 
 .p2_c_d_p2{
 	position:absolute;	
-	top:74vw;	
+	top:74vw;
+	cursor : pointer;	
 	width:14%;	
 	height:40px;	
 	margin:8px 45% 8px 45%;		
