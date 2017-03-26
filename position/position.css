@@ -70,7 +70,7 @@ a:hover{position:relative;top:1px;left:1px;}
 .Fintech{
 font-family:"Calibri";	
 	padding:0px 8vw 0px 6.5vw;
-	color:#fca521;
+		color:#fca521;
 		}
 
 
@@ -86,7 +86,7 @@ font-family:"Calibri";
 
 .download{
 	position: absolute;
-
+	cursor : pointer;
 	top:38.2vw;
 	left:2vw;
 	width:14%;
@@ -94,24 +94,37 @@ font-family:"Calibri";
 }
 
 
-
-.apple{
-	position: absolute;	
-	top:38vw;
-	left:18vw;
-	width:14%;	
-	height:40px;	 
-}
-
-
-
-.google{
-	position: absolute;
-	top:38vw;
-	left:30vw;
-	width:14%;
+.apple{	display:none;	position: absolute;
+	top:0vw;
+	left:16vw;	width:100%;
 	height:40px;
-}
+	}
+
+.apple a{	position: absolute;
+	
+	width:100%;
+	height:40px;
+	}
+
+.download:hover .apple{display:block;}
+
+
+.google{	display:none;	position: absolute;
+	top:0vw;
+	left:28vw;	width:100%;
+	height:40px;
+	}
+
+.google a{	position: absolute;
+	
+	width:100%;
+	height:40px;
+	}
+
+.download:hover .google{display:block;}
+
+
+
 
 .fb{
 
